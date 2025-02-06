@@ -49,6 +49,7 @@ from superagi.llms.llm_model_factory import build_model_with_api_key
 from superagi.llms.openai import OpenAi
 from superagi.llms.replicate import Replicate
 from superagi.llms.hugging_face import HuggingFace
+from superagi.llms.openrouter import OpenRouter
 from superagi.models.agent_template import AgentTemplate
 from superagi.models.models_config import ModelsConfig
 from superagi.models.organisation import Organisation
@@ -388,4 +389,3 @@ def github_client_id():
 
 # # __________________TO RUN____________________________
 # # uvicorn main:app --host 0.0.0.0 --port 8001 --reload
-
